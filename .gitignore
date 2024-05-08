@@ -1,0 +1,21 @@
+# misc
+.DS_Store
+npm-debug.log*
+node_modules/
+dist/
+.env
+
+# editor
+*.code-workspace
+.idea
+
+# tooling, playwright tests related ignores
+**/.features-gen/
+.eslintcache
+**/allure-*/
+.logs/
+/playwright-report/*
+**/playwright-html-report/*
+/playwright/.cache/
+**/.reports/*
+**/test-results/*
